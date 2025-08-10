@@ -1,0 +1,89 @@
+
+html {
+  font-family: "Montserrat", sans-serif;  
+}
+
+#cabeçalho {
+    background-color: #02A28F;
+    color: white;
+    padding: 1px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+}
+
+#section2 {
+    display: flex;
+    
+}
+
+#imagecity {
+    margin-top: -3.9rem;
+    margin-left: 4rem;
+}
+
+#cabeçalho1 {
+    margin-top: 4.3rem;
+}
+
+#section3 {
+    display: flex;
+    margin-left: 4rem;
+    margin-top: -8rem;
+}
+
+#imgcabeçalho2 {
+    margin-left: 0.5rem;
+}
+
+#menu {
+    margin-right: 5.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+    
+#section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+#cabeçalho1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+
+#section3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#imgcabeçalho2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -3rem;
+}
+
+#cards {
+    margin-left: -4rem;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: -3rem;
+}
+
+#copyright {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+}
+
+
+
+
+}
